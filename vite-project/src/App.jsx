@@ -1,27 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from 'react';
+import reactLogo from './assets/react.svg'; // You can keep this if it's used
+import viteLogo from '/vite.svg'; // You can remove this if not used
+import './App.css'; // Assuming you have some CSS styles here
 
 function App() {
+  const [cocktail, setCocktail] = useState(null);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResult, setSearchResults] = useState ([]);
 
   return (
-      <div>
+    <div>
+      {/* We will add the rest of the code here */}
+    </div>
+  );
 
-
-      </div>     
-  )
 }
 
-function Header() {
+export default App;
 
-  return (
-      <div>
-  
-        <Header />
-
-      </div>     
-  )
-}
-
-export default App
+/* We have now finished the set up stage! */
