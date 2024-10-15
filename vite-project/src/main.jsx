@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import ProductPage from './App'; // Import your ProductPage component
+import ReactDOM from 'react-dom/client'; // Make sure to import from 'react-dom/client'
+import App from './App'; // Adjust the path to your App component if necessary
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root')); // Create a root
 root.render(
   <React.StrictMode>
-    <ProductPage /> {/* Render ProductPage */}
+    <App />
   </React.StrictMode>
 );
